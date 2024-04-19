@@ -1,0 +1,19 @@
+.home-part-1 h2,
+.home-part-2 h2,
+.home-part-3 h2 {
+  line-height: 1.3;
+}
+.home-part-1 p,
+.home-part-2 p,
+.home-part-3 p {
+  line-height: 1.8;
+}
+.header {
+  background-color: transparent; /* Initially transparent */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header.scrolled {
+  background-color: white; /* Change background color when scrolled */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow when scrolled */
+}
